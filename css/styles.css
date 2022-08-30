@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #283747;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.card_main_container {
+    margin: 25px 0;
+    width: 40%;
+    height: 550px;
+    border-radius: 20px;
+    background:#FFFFFF;
+    overflow: hidden;
+}
+
+.card_main_container .main_container-cover img {
+    width: 100%;
+    height: 200px;
+}
+
+.card_main_container .container-profile {
+    position: absolute;
+    left: calc(50% - 75px);
+    top: 150px;
+}
+
+.card_main_container .container-profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #e9e9e9;
+}
+
+.card_main_container h2 {
+    margin-top: 90px;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: rgb(80, 80, 80);
+}
+
+.card_main_container h3 {
+    margin-top: 5px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 1.4rem;
+    color: rgb(105, 105, 105);
+}
+
+.card_main_container .location {
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+
+.card_main_container .location section {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_main_container .location h3 {
+    font-size: 1.6rem;
+}
+
+.card_main_container .location .right span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url('/images/email.png') center/cover no-repeat;
+    margin: 4px 8px 0 0;
+}
+
+.card_main_container .location .left span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url('/images/location.png') center/cover no-repeat;
+    margin: 4px 8px 0 0;
+}
+
+.card_main_container .social_container {
+    display: flex;
+    width: 100%;
+    height: 75px;
+}
+
+.card_main_container .social_container .social_left, .social_right {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    line-height: 2rem;
+    border: 2px solid gray;
+}
+
+.social_container h2 {
+    margin-top: 0;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: monospace;
+}
+
+.social_container h3 {
+    margin: 15px 40px 3px 40px;
+    font-size: 2rem;
+    
+}
+
+.social_conected {
+    width: 100%;
+    height: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 194, 85);
+}
+
+.social_conected h4 {
+    font-family: verdana;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
